@@ -1,0 +1,50 @@
+<html>
+<head>
+  <title>Interactive Story Test</title>
+  <script type="text/javascript" src="jquery-1.4.4.js" ></script>
+  <script type="text/javascript" src="story.js" ></script>
+  <style>
+    form {border: solid black thin;}
+    #story-container {border: solid black thin;}
+    #story-results {border: solid red thin;}
+    .hidden {display: none;}
+    a {background-color: #cccccc; cursor: pointer;}
+  </style>
+</head>
+<body>
+  <h1>Interactive Story Test</h1>
+  <p>This tells about the experiment</p>
+  <p>More information</p>
+  <h2>Experiment</h2>
+  <form>
+    <p><label>Name</label><br /><input type="text" id="name" /><p>
+    <p>
+      <label for="sex">Sex</label><br />
+      <input type="radio" name="sex" value="male" id="sex-male" />Male<br />
+      <input type="radio" name="sex" value="female" id="sex-female" />Female
+    </p>
+    <p>
+      <label for="age">Age</label><br />
+      <input type="radio" name="age" value="10" id="age-8" />Under 10<br />
+      <input type="radio" name="age" value="15" id="age-12" />10 - 14<br />
+      <input type="radio" name="age" value="20" id="age-12" />15 - 19<br />
+      <input type="radio" name="age" value="25" id="age-12" />20 - 24<br />
+      <input type="radio" name="age" value="30" id="age-12" />25 - 29<br />
+      <input type="radio" name="age" value="40" id="age-12" />30 - 39<br />
+      <input type="radio" name="age" value="50" id="age-12" />40 - 49<br />
+      <input type="radio" name="age" value="60" id="age-12" />50 - 59<br />
+      <input type="radio" name="age" value="70" id="age-12" />60 - 69<br />
+      <input type="radio" name="age" value="80" id="age-12" />70 or older<br />
+    </p>
+    <button type="submit" name="start" value="Start" id="start" >Start Test</button>
+  </form>
+  <p>
+    <div id="story-container" class="hidden"></div>
+  </p>
+  <p>
+  <div id="story-results" class="hidden"></div>
+  </p>
+
+
+</body>
+</html>
