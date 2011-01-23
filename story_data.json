@@ -1,0 +1,613 @@
+[
+  {
+  "page":"1",
+  "plot":"You enter the hotel. You are looking forward to the poker match today. Hopefully, you can win enough money to pay some bills.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"2",
+  "end":""
+  },
+
+  {
+  "page":"2",
+  "plot":"The hotel lobby is very crowded.",
+  "choice_1":"I should make my way slowly through the lobby and follow the signs to the poker room.",
+  "choice_2":"I see a short cut through a construction area. Maybe that way would be faster.",
+  "score_1":"1",
+  "score_2":"10",
+  "next_1":"3",
+  "next_2":"6",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"3",
+  "plot":"It takes you a while, but you finally get there and sit down at your table with the others.",
+  "choice_1":"I better mind my own business and get ready for the match.",
+  "choice_2":"I'm going to psych the guys out so they know they have no way to win.",
+  "score_1":"1",
+  "score_2":"10",
+  "next_1":"4",
+  "next_2":"5",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"4",
+  "plot":"You take your time getting into that poker Zen state and ignore the others' banter.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"7",
+  "end":""
+  },
+
+  {
+  "page":"5",
+  "plot":"You stare at them intently and smile evilly just so they know you mean business.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"7",
+  "end":""
+  },
+
+  {
+  "page":"6",
+  "plot":"You walk through the construction area and you get to a door.  A sign over it reads, \"Do Not Enter.\"",
+  "choice_1":"I am going to head back. This wasn't a good idea.",
+  "choice_2":"What could be the worst that could happen? I open the door.",
+  "score_1":"1",
+  "score_2":"10",
+  "next_1":"9",
+  "next_2":"8",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"7",
+  "plot":"You are dealt your hands. You get all junk, but you also have a king and an ace.",
+  "choice_1":"I will turn it all in and hope for luck.",
+  "choice_2":"I will turn in everything but the king and the ace.",
+  "score_1":"10",
+  "score_2":"1",
+  "next_1":"10",
+  "next_2":"11",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"8",
+  "plot":"As you open the door, you glance out the window. Out there is space. Sometimes you forget you are on a space station. \"Blam!\", rings the decompression bell. You see a row of spacesuits across the hall.",
+  "choice_1":"I reach for a spacesuit. ",
+  "choice_2":"If I run, I can probably make it to the door before the air vents out.",
+  "score_1":"1",
+  "score_2":"10",
+  "next_1":"12",
+  "next_2":"13",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"9",
+  "plot":"It takes you a while, but you finally get there and sit down.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"7",
+  "end":""
+  },
+
+  {
+  "page":"10",
+  "plot":"You have a pair, but that isn't enough to beat the other players. Fortunately, this was the warm-up round so you don't lose any money.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"14",
+  "end":""
+  },
+
+  {
+  "page":"11",
+  "plot":"Not bad, you got a full house and beat the others. Unfortunately, this was the warm-up round, so you don't win any money.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"14",
+  "end":""
+  },
+
+  {
+  "page":"12",
+  "plot":"That was a smart choice, otherwise you might have died. You walk through the door, take off your space suit and head back through the lobby to the poker room.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"14",
+  "end":""
+  },
+
+  {
+  "page":"13",
+  "plot":"You just barely make it into the doorway. Panting, you head back through the lobby into the poker room.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"14",
+  "end":""
+  },
+
+  {
+  "page":"14",
+  "plot":"It is the end of the warm-up round, and you decide to join the high-stakes round.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"15",
+  "end":""
+  },
+
+  {
+  "page":"15",
+  "plot":"You have plenty of money to spend. Well, not much. If you lose this round you are nearly broke. You have $1,100 with you.",
+  "choice_1":"I am going to bet $1,000.",
+  "choice_2":"I should only bet $100.",
+  "score_1":"10",
+  "score_2":"1",
+  "next_1":"16",
+  "next_2":"17",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"16",
+  "plot":"Luckily, you have a good hand. It has two pairs. Then you see one of the other players pulling some cards from his jacket.",
+  "choice_1":"I had better speak up about the cheating. They may cancel the match, but I will get my money back.",
+  "choice_2":"If I expose him, they may cancel the match. I better keep quiet. Since I know he is cheating, I may be able to counter his moves, or win back my losses in the next few rounds.",
+  "score_1":"1",
+  "score_2":"10",
+  "next_1":"18",
+  "next_2":"19",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"17",
+  "plot":"You have a junk hand, so you had better…",
+  "choice_1":"I'll bluff them into thinking I have a better hand than I really do.",
+  "choice_2":"I will trade in my cards for new ones.",
+  "score_1":"10",
+  "score_2":"1",
+  "next_1":"20",
+  "next_2":"21",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"18",
+  "plot":"You point at the man, and say that he is cheating. They check his hand and all the other hands and find that there are 5 aces, and they will have to cancel the match. You will get your money back, though.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"22",
+  "end":""
+  },
+
+  {
+  "page":"19",
+  "plot":"When the hands are revealed, one guy has 3 aces, and the cheater has 2 aces. You did not think another guy would get so lucky with aces. They still have to call off the match.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"22",
+  "end":""
+  },
+
+  {
+  "page":"20",
+  "plot":"Your bluff works. You are a very convincing actor. Good thing you took those drama classes in school. As a result, you win $4,000.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"23",
+  "end":""
+  },
+
+  {
+  "page":"21",
+  "plot":"And your hand is still junk. Luckily, you only bet $100.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"24",
+  "end":""
+  },
+
+  {
+  "page":"22",
+  "plot":"You decide to follow the cheater because you are so angry they had to cancel the match. You lose sight of him at an intersection.",
+  "choice_1":"He must have gone into the shopping complex.",
+  "choice_2":"I think he went onto the tram.",
+  "score_1":"0",
+  "score_2":"0",
+  "next_1":"26",
+  "next_2":"25",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"23",
+  "plot":"Now that you have that much cash, what should you do with it?",
+  "choice_1":"I am going to deposit it into the bank.",
+  "choice_2":"You know you have bills to pay, but it is time for a shopping spree.",
+  "score_1":"1",
+  "score_2":"10",
+  "next_1":"29",
+  "next_2":"25",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"24",
+  "plot":"Well, this hasn't been the luckiest of days, but you still have some money.",
+  "choice_1":"I am going to head to the bank to deposit what I have left.",
+  "choice_2":"You know you have bills to pay, but a shopping spree would pick up your mood. You head for the shopping complex.",
+  "score_1":"1",
+  "score_2":"10",
+  "next_1":"29",
+  "next_2":"25",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"25",
+  "plot":"You spend more money than you should, and finally decide to head home.",
+  "choice_1":"I will go get a taxi and head back home.",
+  "choice_2":"I will head to the tram. I think it will get me home quickly enough.",
+  "score_1":"0",
+  "score_2":"0",
+  "next_1":"30",
+  "next_2":"34",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"26",
+  "plot":"As you walk onto the tram, you see the cheater sitting in the back. At the next stop, he gets off. Your anger has dissipated, and you stay on the tram. After a few stops, you realize you are far from home.",
+  "choice_1":"I am going to stay on the tram, since it makes a large circle. I will eventually get back to my stop.",
+  "choice_2":"I will get off the tram and hope I can find a taxi. I don't know if there are taxis in this area, but that will be a faster way home.",
+  "score_1":"1",
+  "score_2":"10",
+  "next_1":"32",
+  "next_2":"30",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"27",
+  "plot":"As you walk through the shopping complex, you gaze into the windows, marveling at all the merchandise. Suddenly you see the cheater's reflection in the window.",
+  "choice_1":"I am going to keep following him.",
+  "choice_2":"There is a great looking restaurant across the street. I would rather go there than keep following him.",
+  "score_1":"10",
+  "score_2":"1",
+  "next_1":"28",
+  "next_2":"31",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"28",
+  "plot":"You eventually lose sight of him. Now you are far from home and can't find a taxi. You see a hotel on the next block, and head there.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"33",
+  "end":""
+  },
+
+  {
+  "page":"29",
+  "plot":"You enter the bank and deposit your cash. You keep $500 for immediate expenses.",
+  "choice_1":"I will go get a taxi and head back home.",
+  "choice_2":"I will head to the tram. I think it will get me home quickly enough.",
+  "score_1":"0",
+  "score_2":"0",
+  "next_1":"28",
+  "next_2":"34",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"30",
+  "plot":"You wander around but can't find a taxi. It is getting late. You see a hotel on the next block, and head there.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"33",
+  "end":""
+  },
+
+  {
+  "page":"31",
+  "plot":"You grab a bite to eat at the restaurant. Now it is late, and the tram and taxis have stopped running. You see a hotel nearby, and head there.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"33",
+  "end":""
+  },
+
+  {
+  "page":"32",
+  "plot":"You finally get back to your district, but it took longer than you thought it would. You are still far from home, and there isn't a taxi in sight. You see a hotel across the street, and head there.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"33",
+  "end":""
+  },
+
+  {
+  "page":"33",
+  "plot":"You enter the hotel. When you ask the man at the front desk about prices, he names an extremely large number. You glance around the hotel and see a plaque on the wall. \"Hotel rated 5 stars by the Hotel Rating Commission\".",
+  "choice_1":"I would rather sleep outside in the cold than pay that price. Hopefully the hoodlums who roam the streets at night won't see me.",
+  "choice_2":"It's a steep price, but I will pay it, rather than risk sleeping outside tonight.",
+  "score_1":"10",
+  "score_2":"1",
+  "next_1":"35",
+  "next_2":"36",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"34",
+  "plot":"You walk up to the tram. The cost is $5, but must be exact change. You glance over to a man who is very intently feeding money into the machine to get his ticket. You see his wallet sitting next to him with a $5 bill sticking out.",
+  "choice_1":"He isn't looking it…I will just grab the $5 bill.",
+  "choice_2":"I ask the man if he has change for my $10 bill.",
+  "score_1":"10",
+  "score_2":"1",
+  "next_1":"37",
+  "next_2":"38",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"35",
+  "plot":"It is extremely cold and frightening staying outside all night. But finally morning arrives.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"39",
+  "end":""
+  },
+
+  {
+  "page":"36",
+  "plot":"You regret paying the huge price, but at least you got a good night's sleep.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"39",
+  "end":""
+  },
+
+  {
+  "page":"37",
+  "plot":"You feel guilty, but you make it home with no further incidents.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"39",
+  "end":""
+  },
+
+  {
+  "page":"38",
+  "plot":"He makes change for you. You get a ticket and head home.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"39",
+  "end":""
+  },
+
+  {
+  "page":"39",
+  "plot":"A few days later, you wake up feeling a little sick. Your good friend is having a birthday party today, and you are looking forward to it.",
+  "choice_1":"You probably just have a little cold. Nothing to worry about.",
+  "choice_2":"I better go see the doctor, just in case. There are a lot of bad flu bugs going around right now.",
+  "score_1":"10",
+  "score_2":"1",
+  "next_1":"40",
+  "next_2":"41",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"40",
+  "plot":"Two hours before the party, you start feeling nauseous. You are stuck at home. Your friend is dissapointed that you missed his party, and so are you.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"42",
+  "end":""
+  },
+
+  {
+  "page":"41",
+  "plot":"The doctor says that you have a stomach flu, and gives you pills to cure it. You make it to your friend's party.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"43",
+  "end":""
+  },
+
+  {
+  "page":"42",
+  "plot":"You get some rest and wake up feeling better a few days later. The last few days have been tough. What should you do this morning?",
+  "choice_1":"Time to get up and face whatever the world can throw at me.",
+  "choice_2":"I am going back to bed.",
+  "score_1":"10",
+  "score_2":"1",
+  "next_1":"44",
+  "next_2":"45",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"43",
+  "plot":"One of your friends who is at the party, asks if you want to play poker this weekend.",
+  "choice_1":"Oh, no, not again! You tell him you can't make it.",
+  "choice_2":"Why not? What is the worst that could happen?",
+  "score_1":"1",
+  "score_2":"10",
+  "next_1":"46",
+  "next_2":"46",
+  "bridge":"",
+  "end":""
+  },
+
+  {
+  "page":"44",
+  "plot":"You put some toast in your antique pop-up toaster and get a glass of milk. As you check on the toast, the bread pops up and hits you in the face. Getting up was a bad idea.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"47",
+  "end":""
+  },
+
+  {
+  "page":"45",
+  "plot":"ZZZZZZZZZZZZZZZZZZZZZZZZZZZZ",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"47",
+  "end":""
+  },
+
+  {
+  "page":"46",
+  "plot":"That night as you drift off to sleep, you dream of dollar bills chasing you around and around. ",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"47",
+  "end":""
+  },
+
+  {
+  "page":"47",
+  "plot":"THE END. Thanks for playing.",
+  "choice_1":"",
+  "choice_2":"",
+  "score_1":"",
+  "score_2":"",
+  "next_1":"",
+  "next_2":"",
+  "bridge":"",
+  "end":"47"
+  }
+]
+

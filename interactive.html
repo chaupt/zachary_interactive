@@ -1,6 +1,6 @@
 <form action="/results/" autocomplete="off" class="new_dy_node" id="test_results" method="post">
 <li>
-<label for="test_results_results_name">Name (Not Part of Test)</label>
+<label for="test_results_results_name">Name (Not Part of Test But Needed for Spam Protection)</label>
 <div class="input-wrap"><input class="text" id="test_results_results_name" name="test_results[results][name]" size="50" type="text" /></div>
 </li>
 <li>
@@ -21,8 +21,8 @@
 <li>
 <label for="test_results_dymd_sex">Sex</label>
 <div class="input-wrap">
- <input type="radio" name="test_results[dymd][sex]" value="male" id="test_results_dymd_sex-male" />Male<br />
- <input type="radio" name="test_results[dymd][sex]" value="female" id="test_results_dymd_sex-female" />Female
+ <input type="radio" name="test_results[dymd][sex]" value="male" id="test_results_dymd_sex-male" class="required"/>Male<br />
+ <input type="radio" name="test_results[dymd][sex]" value="female" id="test_results_dymd_sex-female" class="required"/>Female
 </div>
 </li>
 <li>
@@ -36,6 +36,9 @@
 <input id="test_results_dymd_score" name="test_results[dymd][score]" type="hidden" value=""/>
   <button id="start_button">Start Test</button>
 </form>
+<p>
+  <div id="loading" class="hidden">Loading the story...</div>
+</p>
 <p>
   <div id="story-container" class="hidden"></div>
 </p>

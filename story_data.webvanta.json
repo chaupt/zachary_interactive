@@ -1,0 +1,14 @@
+[<w:kb:item:each type="page" sort="page;number ASC">
+  {
+  "page":"<w:kb:get name='page' />",
+  "plot":"<w:plot />",
+  "choice_1":"<w:choice_1 />",
+  "choice_2":"<w:choice_2 />",
+  "score_1":"<w:score_1 />",
+  "score_2":"<w:score_2 />",
+  "next_1":"<w:next_1 />",
+  "next_2":"<w:next_2 />",
+  "bridge":"<w:bridge />",
+  "end":"<w:end />"
+  }<w:unless_last>,</w:unless_last>
+</w:kb:item:each>]
