@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   var story = [
     { page: 1,
-      title: "So it begins...", 
+      title: "So it begins...",
       plot: "You are in a maze of twisty-turny passages all a like. There is a fork ahead",
       choice_1: "I go left, into the dark",
       choice_2: "I go right, towards the light",
@@ -10,7 +10,7 @@ $(document).ready(function() {
       next_1: 2, next_2: 4 },
 
     { page: 2,
-      title: "Darkness...", 
+      title: "Darkness...",
       plot: "Wow, it is really dark. You stub your toe. You are in a maze of twisty-turny passages all a like. There is a fork ahead",
       choice_1: "I rub my toe and head towards the light",
       choice_2: "I kick that darn rock, and head towards the light",
@@ -18,7 +18,7 @@ $(document).ready(function() {
       next_1: 5, next_2: 3 },
     
     { page: 3,
-      title: "Darkness in pain...", 
+      title: "Darkness in pain...",
       plot: "Your toe really hurts, you are limping, and you come across an underground lake.",
       choice_1: "I dive into the water and swim towards an sparkling light",
       choice_2: "I walk around the lake and take a path leading up",
@@ -26,7 +26,7 @@ $(document).ready(function() {
       next_1: 4, next_2: 5 },
     
     { page: 4,
-      title: "Glimmers...", 
+      title: "Glimmers...",
       plot: "You enter a room that sparkles with shiny crystals.",
       choice_1: "I walk to the exit",
       choice_2: "I pick up some crystals, put them in my pocket, and head out",
@@ -34,7 +34,7 @@ $(document).ready(function() {
       next_1: 5, next_2: 5 },
       
     { page: 5,
-      title: "So it ends...", 
+      title: "So it ends...",
       plot: "Somehow, you got out",
       end: true }
       
@@ -43,9 +43,8 @@ $(document).ready(function() {
   var score = 0;
   var choices = [];
   
-  var print_report_results = function() {
-    var name = $("#name").val();
-    $("#story-results").show().text("Thanks " + name + ", your score was: "+ score);
+  var save_report_results = function() {
+    $("#test_results_dymd_score").val(score);
   };
   
   var get_next_page = function(next_page) {
@@ -73,12 +72,14 @@ $(document).ready(function() {
       $("#choice_2").click(function(){score = score + current_page.score_2; story_engine(current_page.next_2)});
       
     } else {
-      var page_markup = "<h3>" + current_page.title + "</h3><p>" + current_page.plot + "</p>";      
+      var page_markup = "<h3>" + current_page.title + "</h3><p>" + current_page.plot + "</p><button id='end_button'>Finish Test</button>";      
       $("#story-container").html(page_markup);
-      print_report_results();
+      $("#end_button").click(function(){$('form').submit();});   
+      save_report_results();
+      
     }
   };
  
-  $('form').submit(function(){$(this).hide(); $("#story-container").show(); story_engine(1); return false;});
+  $('#start_button').click(function(){$('form').hide(); $("#story-container").show(); story_engine(1); return false;});
 }
 )

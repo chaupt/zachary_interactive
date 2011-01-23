@@ -3,13 +3,7 @@
   <title>Interactive Story Test</title>
   <script type="text/javascript" src="jquery-1.4.4.js" ></script>
   <script type="text/javascript" src="story.js" ></script>
-  <style>
-    form {border: solid black thin;}
-    #story-container {border: solid black thin;}
-    #story-results {border: solid red thin;}
-    .hidden {display: none;}
-    a {background-color: #cccccc; cursor: pointer;}
-  </style>
+  <link rel="stylesheet" href="interactive.css"  type="text/css" media="screen" />
 </head>
 <body>
   <h1>Interactive Story Test</h1>
@@ -17,7 +11,7 @@
   <p>More information</p>
   <h2>Experiment</h2>
   <form>
-    <p><label>Name</label><br /><input type="text" id="name" /><p>
+    <p><label>Name (Not Part of Test)</label><br /><input type="text" id="name" /><p>
     <p>
       <label for="sex">Sex</label><br />
       <input type="radio" name="sex" value="male" id="sex-male" />Male<br />
@@ -36,13 +30,10 @@
       <input type="radio" name="age" value="70" id="age-12" />60 - 69<br />
       <input type="radio" name="age" value="80" id="age-12" />70 or older<br />
     </p>
-    <button type="submit" name="start" value="Start" id="start" >Start Test</button>
+    <button id="start_button">Start Test</button>
   </form>
   <p>
     <div id="story-container" class="hidden"></div>
-  </p>
-  <p>
-  <div id="story-results" class="hidden"></div>
   </p>
 
 

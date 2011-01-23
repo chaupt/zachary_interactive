@@ -1,0 +1,44 @@
+<form action="/results/" autocomplete="off" class="new_dy_node" id="test_results" method="post">
+<li>
+<label for="test_results_results_name">Name (Not Part of Test)</label>
+<div class="input-wrap"><input class="text" id="test_results_results_name" name="test_results[results][name]" size="50" type="text" /></div>
+</li>
+<li>
+<label for="test_results_dymd_age">Age</label>
+<div class="input-wrap">
+  <input type="radio" name="test_results[dymd][age]" value="10" id="age-8" class="required"/>Under 10<br />
+  <input type="radio" name="test_results[dymd][age]" value="15" id="age-12" class="required"/>10 - 14<br />
+  <input type="radio" name="test_results[dymd][age]" value="20" id="age-12" class="required"/>15 - 19<br />
+  <input type="radio" name="test_results[dymd][age]" value="25" id="age-12" class="required"/>20 - 24<br />
+  <input type="radio" name="test_results[dymd][age]" value="30" id="age-12" class="required"/>25 - 29<br />
+  <input type="radio" name="test_results[dymd][age]" value="40" id="age-12" class="required"/>30 - 39<br />
+  <input type="radio" name="test_results[dymd][age]" value="50" id="age-12" class="required"/>40 - 49<br />
+  <input type="radio" name="test_results[dymd][age]" value="60" id="age-12" class="required"/>50 - 59<br />
+  <input type="radio" name="test_results[dymd][age]" value="70" id="age-12" class="required"/>60 - 69<br />
+  <input type="radio" name="test_results[dymd][age]" value="80" id="age-12" class="required"/>70 or older<br />
+</div>
+</li>
+<li>
+<label for="test_results_dymd_sex">Sex</label>
+<div class="input-wrap">
+ <input type="radio" name="test_results[dymd][sex]" value="male" id="test_results_dymd_sex-male" />Male<br />
+ <input type="radio" name="test_results[dymd][sex]" value="female" id="test_results_dymd_sex-female" />Female
+</div>
+</li>
+<li>
+<label for="test_results_dymd_human">What do you get when you add two to two?</label>
+<div class="input-wrap"><input class="text" id="test_results_dymd_human" name="test_results[dymd][human]" size="50" type="text" /></div>
+</li>
+
+<input id="email2" name="email2" style="display:none;" type="text" value="" />
+<input id="form_id" name="form_id" type="hidden" value="test_results" />
+<input id="test_results_dymd_raw" name="test_results[dymd][raw]" type="hidden" value="" />
+<input id="test_results_dymd_score" name="test_results[dymd][score]" type="hidden" value=""/>
+  <button id="start_button">Start Test</button>
+</form>
+<p>
+  <div id="story-container" class="hidden"></div>
+</p>
+
+
+

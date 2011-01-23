@@ -1,0 +1,4 @@
+#story-container {border: solid black thin;}
+#story-results {border: solid red thin;}
+.hidden {display: none;}
+a {background-color: #cccccc; cursor: pointer;}
