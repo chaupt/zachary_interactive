@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   var story = [];
   var score = 0;
-  var choices = [];
+  var choices = "";
   
   var after_data_is_loaded = function(data) {
     story = data;
@@ -23,9 +23,11 @@ $(document).ready(function() {
   
   var save_report_results = function() {
     var name = $("#test_results_results_name").val();
-    if (!name || name.length < 1)
+    if (!name || name.length < 1) {
       $("#test_results_results_name").val('Mystery Visitor');
+    }
     $("#test_results_dymd_score").val(score);
+    $("#test_results_dymd_raw").val(choices);
   };
   
   var get_next_page = function(next_page) {
@@ -41,6 +43,7 @@ $(document).ready(function() {
   };
   
   var story_engine = function(next_page) {
+    choices = choices + " -> " + next_page;
     var current_page = get_next_page(next_page);
     if (current_page.end) {
       var page_markup = "<p>" + current_page.plot + "</p><button id='end_button'>Finish Test</button>";      
